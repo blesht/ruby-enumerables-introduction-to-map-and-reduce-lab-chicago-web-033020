@@ -53,12 +53,10 @@ def reduce_to_any_true(array)
   false 
 end
 
-def reduce_to_total(array, starting_point=100)
+def reduce_to_total(array, starting_point=0)
   i = 0 
-  if starting_point != nil 
-    total = starting_point
-  else
-    total = 0 
+  
+  total = starting_point
   end
   while i < array.length do 
     total += array[i] 
