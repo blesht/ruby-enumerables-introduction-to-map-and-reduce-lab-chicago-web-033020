@@ -52,3 +52,13 @@ def reduce_to_any_true(array)
   end 
   false 
 end
+
+def reduce_to_total(array)
+  i = 0 
+  total = 0 
+  while i < array.length do 
+    total += array[i] 
+    i += 1 
+  end 
+  total 
+end
